@@ -1,6 +1,6 @@
 //As seen https://github.com/facebook/fbjs/blob/master/src/core/shallowEqual.js
 
-export default function shallowEqual(objA, objB) {
+module.exports = function shallowEqual(objA, objB) {
   if (objA === objB) {
     return true;
   }
